@@ -1,5 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 SCRIPT_DIR=$(cd `dirname "${BASH_SOURCE[0]}"` && pwd)
+
 
 command -v cvlc >/dev/null 2>&1 || { echo >&2 "cvlc is not installed. not pushing it real good :("; exit 1; }
 
