@@ -9,3 +9,6 @@ cvlc
 ##installation##
 clone this repository and add the following line to the .git/hooks/pre-push file of any repository:
 /bin/bash /path/to/repo/push-it.sh
+
+##license##
+this application is opensource and licensed under the MIT license (http://opensource.org/licenses/MIT)
